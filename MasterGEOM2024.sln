@@ -5,7 +5,9 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "primaApp", "primaApp\primaApp.csproj", "{1378458C-4955-46BE-B44A-3B59CF14C849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "secondaApp", "secondaApp\secondaApp.csproj", "{86CBB712-D068-46EC-9FB7-76EBB120D795}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "secondaApp", "secondaApp\secondaApp.csproj", "{86CBB712-D068-46EC-9FB7-76EBB120D795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "terzaApp", "terzaApp\terzaApp.csproj", "{922B872D-3986-4938-90A4-CAB276229823}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{86CBB712-D068-46EC-9FB7-76EBB120D795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86CBB712-D068-46EC-9FB7-76EBB120D795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86CBB712-D068-46EC-9FB7-76EBB120D795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{922B872D-3986-4938-90A4-CAB276229823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{922B872D-3986-4938-90A4-CAB276229823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{922B872D-3986-4938-90A4-CAB276229823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{922B872D-3986-4938-90A4-CAB276229823}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
