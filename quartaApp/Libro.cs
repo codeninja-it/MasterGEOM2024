@@ -1,32 +1,32 @@
 ﻿
 namespace quartaApp
 {
-    internal class Libro
+    public class Libro
     {
-        public int idLibro = 0;
-        public string titolo = "";
-        public int anno = 0;
-        public string autore = "";
-        public string ISBN = "";
-        public bool primaEdizione = false;
-        public float prezzo = 0;
-        public string collezione = "";
-        public int idUtente = 0;
+        public int idLibro { get; set; } = 0;
+        public string titolo { get; set; } = "";
+        public int anno { get; set; } = 0;
+        public string autore { get; set; } = "";
+        public string ISBN { get; set; } = "";
+        public bool primaEdizione { get; set; } = false;
+        public float prezzo { get; set; } = 0;
+        public string collezione { get; set; } = "";
+        public int idUtente { get; set; } = 0;
     }
 
-    internal class Catalogo
+    public class Catalogo
     {
-        public string nome = "";
-        public int anno = 0;
-        public List<Libro> libri = new List<Libro>();
-        public List<Utente> utenti = new List<Utente>();
+        public string nome { get; set; } = "";
+        public int anno { get; set; } = 0;
+        public List<Libro> libri { get; set; } = new List<Libro>();
+        public List<Utente> utenti { get; set; } = new List<Utente>();
     }
 
-    internal class Utente
+    public class Utente
     {
-        public int idUtente = 0;
-        public string nome = "";
-        public string cognome = "";
+        public int idUtente { get; set; } = 0;
+        public string nome { get; set; } = "";
+        public string cognome { get; set; } = "";
     }
 
 

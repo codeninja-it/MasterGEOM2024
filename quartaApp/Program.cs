@@ -26,6 +26,7 @@ libro.collezione = "Statistica";
 libro.anno = 2004;
 
 catalogo.libri.Add(libro);
+
 Utente nuovo = new Utente();
 nuovo.nome = "Mario";
 nuovo.cognome = "Rossi";
@@ -34,4 +35,4 @@ catalogo.utenti.Add(nuovo);
 
 
 string buffer = JsonSerializer.Serialize(catalogo);
-File.WriteAllText();
+File.WriteAllText("c:\\test\\catalogo.json", buffer);
